@@ -309,15 +309,28 @@ button, input, optgroup, select, textarea {
 }
 
 /* footer */
-.tm-footer-link {
-  color: #6c6c6c;
+footer{
+  background: linear-gradient(45deg, rgb(19,19,19) -10%,#cc0064);
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+ 
 }
-
-.tm-footer-link:hover,
-.tm-footer-link:focus {
-  color: #cc0064;
+.social-link a i{
+ 
+  transition: all 1s ease-in-out;
+}
+.social-link a i:hover{
+  transform:rotate(25deg);
+}
+footer span a{
+  color: #32A1A0;
   text-decoration: none;
 }
+footer span a:hover{
+  text-decoration: underline;
+}
+
 
 /* media query */
 
